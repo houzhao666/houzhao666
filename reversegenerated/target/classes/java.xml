@@ -1,0 +1,71 @@
+
+ 
+  <class name=Java table=tt_flight_execute_condition>  
+ 		  <id name=id type=java.lang.Long column=id>
+  			  <generator class=identity> </generator>	
+ 		 </id>
+ 		 <property name=flightTaskId	 column=flight_task_id	 type=java.lang.String />
+ 		 <property name=logTm	 column=log_tm	 type=java.util.Date />
+ 		 <property name=flightDate	 column=flight_date	 type=java.util.Date />
+ 		 <property name=flightNo	 column=flight_no	 type=java.lang.String />
+ 		 <property name=planeNo	 column=plane_no	 type=java.lang.String />
+ 		 <property name=planeType	 column=plane_type	 type=java.lang.String />
+ 		 <property name=srcCity	 column=src_city	 type=java.lang.String />
+ 		 <property name=srcCityCode	 column=src_city_code	 type=java.lang.String />
+ 		 <property name=srcAirport	 column=src_airport	 type=java.lang.String />
+ 		 <property name=destCity	 column=dest_city	 type=java.lang.String />
+ 		 <property name=destCityCode	 column=dest_city_code	 type=java.lang.String />
+ 		 <property name=destAirport	 column=dest_airport	 type=java.lang.String />
+ 		 <property name=planStartTm	 column=plan_start_tm	 type=java.util.Date />
+ 		 <property name=planEndTm	 column=plan_end_tm	 type=java.util.Date />
+ 		 <property name=actualStartTm	 column=actual_start_tm	 type=java.util.Date />
+ 		 <property name=actualEndTm	 column=actual_end_tm	 type=java.util.Date />
+ 		 <property name=startDelay	 column=start_delay	 type=java.lang.Integer />
+ 		 <property name=endDelay	 column=end_delay	 type=java.lang.Integer />
+ 		 <property name=capacityState	 column=capacity_state	 type=java.lang.Integer />
+ 		 <property name=cancelException	 column=cancel_exception	 type=java.lang.Integer />
+ 		 <property name=cancelCause	 column=cancel_cause	 type=java.lang.String />
+ 		 <property name=flightLoad	 column=flight_load	 type=java.lang.String />
+ 		 <property name=actualSpace	 column=actual_space	 type=java.lang.String />
+ 		 <property name=flightNature	 column=flight_nature	 type=java.lang.String />
+ 		 <property name=planSendWeight	 column=plan_send_weight	 type=java.lang.Double />
+ 		 <property name=actualSendWeight	 column=actual_send_weight	 type=java.lang.Double />
+ 		 <property name=planLoadRate	 column=plan_load_rate	 type=java.lang.Double />
+ 		 <property name=actualLoadRate	 column=actual_load_rate	 type=java.lang.Double />
+ 		 <property name=boxLoadRate	 column=box_load_rate	 type=java.lang.Double />
+ 		 <property name=deleteFlag	 column=delete_flag	 type=java.lang.Integer />
+ 		 <property name=creator	 column=creator	 type=java.lang.String />
+ 		 <property name=createTm	 column=create_tm	 type=java.util.Date />
+ 		 <property name=modifer	 column=modifer	 type=java.lang.String />
+ 		 <property name=modifyTm	 column=modify_tm	 type=java.util.Date />
+ 		 <property name=versionNo	 column=version_no	 type=java.lang.Long />
+ 		 <property name=flightType	 column=flight_type	 type=java.lang.String />
+ 		 <property name=startArea	 column=start_area	 type=java.lang.String />
+ 		 <property name=destArea	 column=dest_area	 type=java.lang.String />
+ 		 <property name=isDelay	 column=is_delay	 type=java.lang.Integer />
+ 		 <property name=delayCause	 column=delay_cause	 type=java.lang.String />
+ 		 <property name=causeDesc	 column=cause_desc	 type=java.lang.String />
+ 		 <property name=cancelDesc	 column=cancel_desc	 type=java.lang.String />
+ 		 <property name=loadPoll	 column=load_poll	 type=java.lang.Integer />
+ 		 <property name=startAreaName	 column=start_area_name	 type=java.lang.String />
+ 		 <property name=destAreaName	 column=dest_area_name	 type=java.lang.String />
+ 		 <property name=actualSendWeightNoempty	 column=actual_send_weight_noEmpty	 type=java.lang.Double />
+ 		 <property name=actualLoadRateNoempty	 column=actual_load_rate_noEmpty	 type=java.lang.Double />
+ 		 <property name=exceptionTypes	 column=exception_types	 type=java.lang.String />
+ 		 <property name=exceptionReasons	 column=exception_reasons	 type=java.lang.String />
+ 		 <property name=carNo	 column=car_no	 type=java.lang.String />
+ 		 <property name=pullCargoWeight	 column=pull_cargo_weight	 type=java.lang.Double />
+ 		 <property name=pullCargoNumber	 column=pull_cargo_number	 type=java.lang.Integer />
+ 		 <property name=cargoLastDate	 column=cargo_last_date	 type=java.util.Date />
+ 		 <property name=cargoActualDate	 column=cargo_actual_date	 type=java.util.Date />
+ 		 <property name=planArriveBatchDt	 column=plan_arrive_batch_dt	 type=java.util.Date />
+ 		 <property name=deliveryBillBatchNo	 column=delivery_bill_batch_no	 type=java.lang.String />
+ 		 <property name=scheduledBulkFreightDt	 column=scheduled_bulk_freight_dt	 type=java.util.Date />
+ 		 <property name=scheduledBulkFreight	 column=scheduled_bulk_freight	 type=java.lang.String />
+ 		 <property name=actualBulkFreightShiftDt	 column=actual_bulk_freight_shift_dt	 type=java.util.Date />
+ 		 <property name=actualBulkFreightShift	 column=actual_bulk_freight_shift	 type=java.lang.String />
+ 		 <property name=plannedDeliveryTime	 column=planned_delivery_time	 type=java.util.Date />
+ 		 <property name=plannedDeliveryEndTime	 column=planned_delivery_end_time	 type=java.util.Date />
+ 		 <property name=actualBillTime	 column=actual_bill_time	 type=java.util.Date />
+ 		 <property name=actualBillEndTime	 column=actual_bill_end_time	 type=java.util.Date />
+ </class>  

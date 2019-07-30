@@ -22,6 +22,9 @@ public class DBManager {
 
 	public static Connection getConnection() {
 		Connection conn = null;
+		/**
+		 * 输入连接串 ， 用户名， 密码
+		 */
 		try {
 			conn = DriverManager.getConnection("", "", "");
 		} catch (SQLException e) {
